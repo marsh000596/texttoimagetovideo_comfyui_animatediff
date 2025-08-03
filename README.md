@@ -1,4 +1,4 @@
-[wf1.json](https://github.com/user-attachments/files/21567890/wf1.json)[wf3.json](https://github.com/user-attachments/files/21567872/wf3.json)# texttoimagetovideo_comfyui_animatediff
+# texttoimagetovideo_comfyui_animatediff
 This is a customized setup of ComfyUI with AnimateDiff-Evolved and several additional nodes, designed for anime and realistic video generation.
 
 ## Included Nodes
@@ -492,8 +492,7 @@ python -m scripts.animate --config configs/prompts/3_sparsectrl/3_3_sparsectrl_s
 
 ##
 
-
-
+[wf1.json](https://github.com/user-attachments/files/21567890/wf1.json)[wf3.json](https://github.com/user-attachments/files/21567872/wf3.json)
 
 ##
 
