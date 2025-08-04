@@ -1,0 +1,125 @@
+## ComfyUI-Manager: installing dependencies done.
+[2025-08-02 23:19:33.724] ** ComfyUI startup time: 2025-08-02 23:19:33.724
+[2025-08-02 23:19:33.726] ** Platform: Windows
+[2025-08-02 23:19:33.726] ** Python version: 3.10.9 (tags/v3.10.9:1dd9be6, Dec  6 2022, 20:01:21) [MSC v.1934 64 bit (AMD64)]
+[2025-08-02 23:19:33.728] ** Python executable: A:\photos\ComfyUI\texttoimagetovideo\comfyenv\Scripts\python.exe
+[2025-08-02 23:19:33.728] ** ComfyUI Path: A:\photos\ComfyUI\texttoimagetovideo
+[2025-08-02 23:19:33.730] ** ComfyUI Base Folder Path: A:\photos\ComfyUI\texttoimagetovideo
+[2025-08-02 23:19:33.731] ** User directory: A:\photos\ComfyUI\texttoimagetovideo\user
+[2025-08-02 23:19:33.732] ** ComfyUI-Manager config path: A:\photos\ComfyUI\texttoimagetovideo\user\default\ComfyUI-Manager\config.ini
+[2025-08-02 23:19:33.733] ** Log path: A:\photos\ComfyUI\texttoimagetovideo\user\comfyui.log
+
+Prestartup times for custom nodes:
+[2025-08-02 23:19:38.200]   14.4 seconds: A:\photos\ComfyUI\texttoimagetovideo\custom_nodes\comfyui-manager
+[2025-08-02 23:19:38.201] 
+[2025-08-02 23:19:58.103] Checkpoint files will always be loaded safely.
+[2025-08-02 23:20:00.182] Total VRAM 4096 MB, total RAM 16269 MB
+[2025-08-02 23:20:00.182] pytorch version: 2.4.1+cu121
+[2025-08-02 23:20:00.182] Set vram state to: NORMAL_VRAM
+[2025-08-02 23:20:00.182] Device: cuda:0 NVIDIA GeForce GTX 1050 Ti : cudaMallocAsync
+[2025-08-02 23:20:08.614] Using pytorch attention
+[2025-08-02 23:20:58.480] Python version: 3.10.9 (tags/v3.10.9:1dd9be6, Dec  6 2022, 20:01:21) [MSC v.1934 64 bit (AMD64)]
+[2025-08-02 23:20:58.481] ComfyUI version: 0.3.47
+[2025-08-02 23:20:58.584] ComfyUI frontend version: 1.23.4
+[2025-08-02 23:20:58.597] [Prompt Server] web root: A:\photos\ComfyUI\texttoimagetovideo\comfyenv\lib\site-packages\comfyui_frontend_package\static
+[2025-08-02 23:21:02.597] ### Loading: ComfyUI-Manager (V3.35)
+[2025-08-02 23:21:02.597] [ComfyUI-Manager] network_mode: public
+[2025-08-02 23:21:03.023] ### ComfyUI Version: v0.3.47-10-g1e638a14 | Released on '2025-08-01'
+[2025-08-02 23:21:03.597] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2025-08-02 23:21:03.658] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2025-08-02 23:21:03.925] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2025-08-02 23:21:04.047] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2025-08-02 23:21:04.141] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2025-08-02 23:21:06.125] [36;20m[A:\photos\ComfyUI\texttoimagetovideo\custom_nodes\comfyui_controlnet_aux] | INFO -> Using ckpts path: A:\photos\ComfyUI\texttoimagetovideo\custom_nodes\comfyui_controlnet_aux\ckpts[0m
+[2025-08-02 23:21:06.125] [36;20m[A:\photos\ComfyUI\texttoimagetovideo\custom_nodes\comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2025-08-02 23:21:06.127] [36;20m[A:\photos\ComfyUI\texttoimagetovideo\custom_nodes\comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2025-08-02 23:21:07.922] A:\photos\ComfyUI\texttoimagetovideo\custom_nodes\comfyui_controlnet_aux\node_wrappers\dwpose.py:26: UserWarning: DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly
+  warnings.warn("DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly")
+[2025-08-02 23:21:09.991] FETCH ComfyRegistry Data: 5/93
+[2025-08-02 23:21:15.182] FETCH ComfyRegistry Data: 10/93
+[2025-08-02 23:21:15.792] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2025-08-02 23:21:15.792] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `A:\photos\ComfyUI\texttoimagetovideo\custom_nodes\was-node-suite-comfyui\was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2025-08-02 23:21:17.587] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m220[0m [32mnodes successfully.[0m
+[2025-08-02 23:21:17.588] 
+	[3m[93m"Success is not final, failure is not fatal: It is the courage to continue that counts."[0m[3m - Winston Churchill[0m
+[2025-08-02 23:21:17.588] 
+[2025-08-02 23:21:17.637] 
+Import times for custom nodes:
+[2025-08-02 23:21:17.637]    0.0 seconds: A:\photos\ComfyUI\texttoimagetovideo\custom_nodes\websocket_image_save.py
+[2025-08-02 23:21:17.637]    0.0 seconds: A:\photos\ComfyUI\texttoimagetovideo\custom_nodes\ComfyUI_pose_inter
+[2025-08-02 23:21:17.637]    0.1 seconds: A:\photos\ComfyUI\texttoimagetovideo\custom_nodes\comfyui-advanced-controlnet
+[2025-08-02 23:21:17.637]    0.2 seconds: A:\photos\ComfyUI\texttoimagetovideo\custom_nodes\ComfyUI-AnimateDiff-Evolved
+[2025-08-02 23:21:17.637]    0.8 seconds: A:\photos\ComfyUI\texttoimagetovideo\custom_nodes\comfyui-manager
+[2025-08-02 23:21:17.637]    2.1 seconds: A:\photos\ComfyUI\texttoimagetovideo\custom_nodes\comfyui_controlnet_aux
+[2025-08-02 23:21:17.637]    2.5 seconds: A:\photos\ComfyUI\texttoimagetovideo\custom_nodes\comfyui-videohelpersuite
+[2025-08-02 23:21:17.637]    9.6 seconds: A:\photos\ComfyUI\texttoimagetovideo\custom_nodes\was-node-suite-comfyui
+[2025-08-02 23:21:17.637] 
+[2025-08-02 23:21:19.751] Context impl SQLiteImpl.
+[2025-08-02 23:21:19.751] Will assume non-transactional DDL.
+[2025-08-02 23:21:19.751] No target revision found.
+[2025-08-02 23:21:19.802] Starting server
+
+[2025-08-02 23:21:19.803] To see the GUI go to: http://127.0.0.1:8188
+[2025-08-02 23:21:20.660] FETCH ComfyRegistry Data: 15/93
+[2025-08-02 23:21:27.239] FETCH ComfyRegistry Data: 20/93
+[2025-08-02 23:21:33.319] FETCH ComfyRegistry Data: 25/93
+[2025-08-02 23:21:39.982] FETCH ComfyRegistry Data: 30/93
+[2025-08-02 23:21:46.664] FETCH ComfyRegistry Data: 35/93
+[2025-08-02 23:21:49.881] got prompt
+[2025-08-02 23:21:54.473] Using pytorch attention in VAE
+[2025-08-02 23:21:54.490] Using pytorch attention in VAE
+[2025-08-02 23:21:55.282] FETCH ComfyRegistry Data: 40/93
+[2025-08-02 23:22:01.072] FETCH ComfyRegistry Data: 45/93
+[2025-08-02 23:22:02.262] VAE load device: cuda:0, offload device: cpu, dtype: torch.float32
+[2025-08-02 23:22:06.867] FETCH ComfyRegistry Data: 50/93
+[2025-08-02 23:22:13.519] FETCH ComfyRegistry Data: 55/93
+[2025-08-02 23:22:19.092] model weight dtype torch.float16, manual cast: None
+[2025-08-02 23:22:19.677] model_type EPS
+[2025-08-02 23:22:21.405] FETCH ComfyRegistry Data: 60/93
+[2025-08-02 23:22:27.574] FETCH ComfyRegistry Data: 65/93
+[2025-08-02 23:22:33.788] FETCH ComfyRegistry Data: 70/93
+[2025-08-02 23:22:39.876] FETCH ComfyRegistry Data: 75/93
+[2025-08-02 23:22:46.027] FETCH ComfyRegistry Data: 80/93
+[2025-08-02 23:22:52.837] FETCH ComfyRegistry Data: 85/93
+[2025-08-02 23:22:58.520] FETCH ComfyRegistry Data: 90/93
+[2025-08-02 23:23:01.929] FETCH ComfyRegistry Data [DONE]
+[2025-08-02 23:23:03.022] [ComfyUI-Manager] default cache updated: https://api.comfy.org/nodes
+[2025-08-02 23:23:03.266] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json[2025-08-02 23:23:03.384] Using pytorch attention in VAE
+[2025-08-02 23:23:03.390] Using pytorch attention in VAE
+ [DONE]
+[2025-08-02 23:23:03.871] [ComfyUI-Manager] All startup tasks have been completed.
+[2025-08-02 23:23:05.851] VAE load device: cuda:0, offload device: cpu, dtype: torch.float32
+[2025-08-02 23:23:06.783] CLIP/text encoder model load device: cuda:0, offload device: cpu, current: cpu, dtype: torch.float16
+[2025-08-02 23:23:15.399] Requested to load SD1ClipModel
+[2025-08-02 23:23:16.769] loaded completely 1928.7500007629394 235.84423828125 True
+[2025-08-02 23:23:19.427] A:\photos\ComfyUI\texttoimagetovideo\comfy\ldm\modules\attention.py:451: UserWarning: 1Torch was not compiled with flash attention. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\transformers\cuda\sdp_utils.cpp:555.)
+  out = torch.nn.functional.scaled_dot_product_attention(q, k, v, attn_mask=mask, dropout_p=0.0, is_causal=False)
+[2025-08-02 23:23:20.480] [AnimateDiffEvo] - [0;32mINFO[0m - Loading motion module temporaldiff-v1-animatediff.ckpt
+[2025-08-02 23:23:37.070] [AnimateDiffEvo] - [0;32mINFO[0m - Sliding context window sampling activated - latents passed in (19) greater than context_length 16.
+[2025-08-02 23:23:37.071] [AnimateDiffEvo] - [0;32mINFO[0m - Using motion module temporaldiff-v1-animatediff.ckpt:v1.
+[2025-08-02 23:23:37.088] Requested to load AnimateDiffModel
+[2025-08-02 23:23:37.088] Requested to load ControlNet
+[2025-08-02 23:23:37.090] Requested to load BaseModel
+[2025-08-02 23:23:38.057] loaded partially 757.744920654297 757.7447509765625 0
+[2025-08-02 23:23:38.244] loaded partially 128.0 127.99920654296875 0
+[2025-08-02 23:23:38.402] loaded partially 128.0 127.99927520751953 0
+[2025-08-03 00:05:15.125] 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [41:35<00:00, 125.37s/it]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [41:35<00:00, 124.79s/it]
+[2025-08-03 00:05:15.154] Requested to load AutoencoderKL
+[2025-08-03 00:05:15.961] 0 models unloaded.
+[2025-08-03 00:05:17.081] loaded partially 128.0 127.99989318847656 0
+[2025-08-03 00:05:56.002] [AnimateDiffEvo] - [0;32mINFO[0m - Sliding context window sampling activated - latents passed in (19) greater than context_length 16.
+[2025-08-03 00:05:56.006] [AnimateDiffEvo] - [0;32mINFO[0m - Using motion module temporaldiff-v1-animatediff.ckpt:v1.
+[2025-08-03 00:05:56.025] Requested to load AnimateDiffModel
+[2025-08-03 00:05:56.026] Requested to load ControlNet
+[2025-08-03 00:05:56.027] Requested to load BaseModel
+[2025-08-03 00:05:56.212] 0 models unloaded.
+[2025-08-03 00:05:56.279] loaded partially 128.0 127.999267578125 0
+[2025-08-03 00:05:56.509] loaded partially 128.0 127.99920654296875 0
+[2025-08-03 00:05:56.650] loaded partially 128.0 127.99927520751953 0
+[2025-08-03 06:03:16.689] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [5:57:20<00:00, 882.97s/it]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [5:57:22<00:00, 1072.14s/it]
+[2025-08-03 06:03:19.806] Requested to load AutoencoderKL
+[2025-08-03 06:03:21.092] 0 models unloaded.
+[2025-08-03 06:03:22.166] loaded partially 128.0 127.99989318847656 0
+[2025-08-03 06:04:46.577] Prompt executed in 06:42:56
+[2025-08-03 06:19:32.339] 
+Stopped server

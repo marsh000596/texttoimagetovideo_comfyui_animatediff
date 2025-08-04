@@ -1,0 +1,100 @@
+## ComfyUI-Manager: installing dependencies done.
+[2025-08-02 04:48:22.351] ** ComfyUI startup time: 2025-08-02 04:48:22.351
+[2025-08-02 04:48:22.351] ** Platform: Windows
+[2025-08-02 04:48:22.351] ** Python version: 3.10.9 (tags/v3.10.9:1dd9be6, Dec  6 2022, 20:01:21) [MSC v.1934 64 bit (AMD64)]
+[2025-08-02 04:48:22.351] ** Python executable: A:\photos\ComfyUI\ComfyUI\comfyenv\Scripts\python.exe
+[2025-08-02 04:48:22.360] ** ComfyUI Path: A:\photos\ComfyUI\ComfyUI
+[2025-08-02 04:48:22.362] ** ComfyUI Base Folder Path: A:\photos\ComfyUI\ComfyUI
+[2025-08-02 04:48:22.365] ** User directory: A:\photos\ComfyUI\ComfyUI\user
+[2025-08-02 04:48:22.366] ** ComfyUI-Manager config path: A:\photos\ComfyUI\ComfyUI\user\default\ComfyUI-Manager\config.ini
+[2025-08-02 04:48:22.368] ** Log path: A:\photos\ComfyUI\ComfyUI\user\comfyui.log
+
+Prestartup times for custom nodes:
+[2025-08-02 04:48:25.406]   19.0 seconds: A:\photos\ComfyUI\ComfyUI\custom_nodes\comfyui-manager
+[2025-08-02 04:48:25.406] 
+[2025-08-02 04:48:41.740] Checkpoint files will always be loaded safely.
+[2025-08-02 04:48:43.737] Total VRAM 4096 MB, total RAM 16269 MB
+[2025-08-02 04:48:43.737] pytorch version: 2.4.1+cu121
+[2025-08-02 04:48:43.737] Set vram state to: NORMAL_VRAM
+[2025-08-02 04:48:43.737] Device: cuda:0 NVIDIA GeForce GTX 1050 Ti : cudaMallocAsync
+[2025-08-02 04:48:53.843] Using pytorch attention
+[2025-08-02 04:49:28.707] Python version: 3.10.9 (tags/v3.10.9:1dd9be6, Dec  6 2022, 20:01:21) [MSC v.1934 64 bit (AMD64)]
+[2025-08-02 04:49:28.707] ComfyUI version: 0.3.47
+[2025-08-02 04:49:28.830] ComfyUI frontend version: 1.23.4
+[2025-08-02 04:49:28.837] [Prompt Server] web root: A:\photos\ComfyUI\ComfyUI\comfyenv\lib\site-packages\comfyui_frontend_package\static
+[2025-08-02 04:49:33.653] ### Loading: ComfyUI-Manager (V3.35)
+[2025-08-02 04:49:33.653] [ComfyUI-Manager] network_mode: public
+[2025-08-02 04:49:34.097] ### ComfyUI Version: v0.3.47-10-g1e638a14 | Released on '2025-08-01'
+[2025-08-02 04:49:34.787] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2025-08-02 04:49:34.803] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2025-08-02 04:49:34.866] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2025-08-02 04:49:34.992] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2025-08-02 04:49:35.135] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2025-08-02 04:49:37.513] [36;20m[A:\photos\ComfyUI\ComfyUI\custom_nodes\comfyui_controlnet_aux] | INFO -> Using ckpts path: A:\photos\ComfyUI\ComfyUI\custom_nodes\comfyui_controlnet_aux\ckpts[0m
+[2025-08-02 04:49:37.513] [36;20m[A:\photos\ComfyUI\ComfyUI\custom_nodes\comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2025-08-02 04:49:37.513] [36;20m[A:\photos\ComfyUI\ComfyUI\custom_nodes\comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2025-08-02 04:49:39.667] A:\photos\ComfyUI\ComfyUI\custom_nodes\comfyui_controlnet_aux\node_wrappers\dwpose.py:26: UserWarning: DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly
+  warnings.warn("DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly")
+[2025-08-02 04:49:42.494] FETCH ComfyRegistry Data: 5/93
+[2025-08-02 04:49:47.359] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2025-08-02 04:49:47.359] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `A:\photos\ComfyUI\ComfyUI\custom_nodes\was-node-suite-comfyui\was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2025-08-02 04:49:48.419] FETCH ComfyRegistry Data: 10/93
+[2025-08-02 04:49:48.962] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m220[0m [32mnodes successfully.[0m
+[2025-08-02 04:49:48.965] 
+	[3m[93m"Art is the triumph over chaos."[0m[3m - John Cheever[0m
+[2025-08-02 04:49:48.965] 
+[2025-08-02 04:49:49.104] 
+Import times for custom nodes:
+[2025-08-02 04:49:49.104]    0.0 seconds: A:\photos\ComfyUI\ComfyUI\custom_nodes\ComfyUI_pose_inter
+[2025-08-02 04:49:49.104]    0.0 seconds: A:\photos\ComfyUI\ComfyUI\custom_nodes\websocket_image_save.py
+[2025-08-02 04:49:49.104]    0.1 seconds: A:\photos\ComfyUI\ComfyUI\custom_nodes\comfyui-advanced-controlnet
+[2025-08-02 04:49:49.104]    0.2 seconds: A:\photos\ComfyUI\ComfyUI\custom_nodes\ComfyUI-AnimateDiff-Evolved
+[2025-08-02 04:49:49.104]    1.0 seconds: A:\photos\ComfyUI\ComfyUI\custom_nodes\comfyui-manager
+[2025-08-02 04:49:49.104]    2.5 seconds: A:\photos\ComfyUI\ComfyUI\custom_nodes\comfyui_controlnet_aux
+[2025-08-02 04:49:49.104]    2.7 seconds: A:\photos\ComfyUI\ComfyUI\custom_nodes\comfyui-videohelpersuite
+[2025-08-02 04:49:49.104]    9.3 seconds: A:\photos\ComfyUI\ComfyUI\custom_nodes\was-node-suite-comfyui
+[2025-08-02 04:49:49.116] 
+[2025-08-02 04:49:51.376] Context impl SQLiteImpl.
+[2025-08-02 04:49:51.376] Will assume non-transactional DDL.
+[2025-08-02 04:49:51.393] No target revision found.
+[2025-08-02 04:49:51.440] Starting server
+
+[2025-08-02 04:49:51.440] To see the GUI go to: http://127.0.0.1:8188
+[2025-08-02 04:49:57.529] FETCH ComfyRegistry Data: 15/93
+[2025-08-02 04:50:04.473] FETCH ComfyRegistry Data: 20/93
+[2025-08-02 04:50:10.959] FETCH ComfyRegistry Data: 25/93
+[2025-08-02 04:50:13.492] got prompt
+[2025-08-02 04:50:16.074] Using pytorch attention in VAE
+[2025-08-02 04:50:16.090] Using pytorch attention in VAE
+[2025-08-02 04:50:17.224] FETCH ComfyRegistry Data: 30/93
+[2025-08-02 04:50:24.527] FETCH ComfyRegistry Data: 35/93
+[2025-08-02 04:50:26.343] VAE load device: cuda:0, offload device: cpu, dtype: torch.float32
+[2025-08-02 04:50:30.616] FETCH ComfyRegistry Data: 40/93
+[2025-08-02 04:50:41.094] model weight dtype torch.float16, manual cast: None
+[2025-08-02 04:50:41.443] model_type EPS
+[2025-08-02 04:50:42.014] FETCH ComfyRegistry Data: 45/93
+[2025-08-02 04:50:48.575] FETCH ComfyRegistry Data: 50/93
+[2025-08-02 04:50:54.051] FETCH ComfyRegistry Data: 55/93
+[2025-08-02 04:51:03.429] FETCH ComfyRegistry Data: 60/93
+[2025-08-02 04:51:09.405] FETCH ComfyRegistry Data: 65/93
+[2025-08-02 04:51:16.006] FETCH ComfyRegistry Data: 70/93
+[2025-08-02 04:51:23.886] Using pytorch attention in VAE
+[2025-08-02 04:51:23.891] Using pytorch attention in VAE
+[2025-08-02 04:51:26.323] VAE load device: cuda:0, offload device: cpu, dtype: torch.float32
+[2025-08-02 04:51:26.856] CLIP/text encoder model load device: cuda:0, offload device: cpu, current: cpu, dtype: torch.float16
+[2025-08-02 04:51:28.327] FETCH ComfyRegistry Data: 75/93
+[2025-08-02 04:51:34.388] Requested to load SD1ClipModel
+[2025-08-02 04:51:35.573] loaded completely 1930.7500007629394 235.84423828125 True
+[2025-08-02 04:51:36.059] FETCH ComfyRegistry Data: 80/93
+[2025-08-02 04:51:38.120] A:\photos\ComfyUI\ComfyUI\comfy\ldm\modules\attention.py:451: UserWarning: 1Torch was not compiled with flash attention. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\transformers\cuda\sdp_utils.cpp:555.)
+  out = torch.nn.functional.scaled_dot_product_attention(q, k, v, attn_mask=mask, dropout_p=0.0, is_causal=False)
+[2025-08-02 04:51:39.213] [AnimateDiffEvo] - [0;32mINFO[0m - Loading motion module temporaldiff-v1-animatediff.ckpt
+[2025-08-02 04:51:41.891] FETCH ComfyRegistry Data: 85/93
+[2025-08-02 04:51:49.869] FETCH ComfyRegistry Data: 90/93
+[2025-08-02 04:51:54.288] FETCH ComfyRegistry Data [DONE]
+[2025-08-02 04:51:54.850] [ComfyUI-Manager] default cache updated: https://api.comfy.org/nodes
+[2025-08-02 04:51:54.923] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json [DONE]
+[2025-08-02 04:51:55.574] [ComfyUI-Manager] All startup tasks have been completed.
+[2025-08-02 05:01:38.309] got prompt
+[2025-08-02 05:02:30.077] 
+Stopped server

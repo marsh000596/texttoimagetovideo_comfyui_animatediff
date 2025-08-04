@@ -1,0 +1,7 @@
+{
+    "Comfy.LinkRenderMode": 2,
+    "Comfy.DevMode": true,
+    "Comfy.Validation.Workflows": true,
+    "Comfy.Workflow.SortNodeIdOnSave": true,
+    "Comfy.Queue.ImageFit": "cover"
+}
