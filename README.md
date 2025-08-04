@@ -2,6 +2,12 @@
 
 A comprehensive setup guide and environment structure for using **ComfyUI** with **AnimateDiff** for animation generation workflows.
 
+##
+<img width="1913" height="879" alt="Screenshot 2025-08-04 020600" src="https://github.com/user-attachments/assets/bbe52bbc-146a-4c18-8df8-3d728cd72603" />
+
+##
+
+
 ---
 
 ## 🌐 Recommended Directory Structure
@@ -208,7 +214,7 @@ ComfyUI/      # here my directory name is texttoimagetovideo
 ├── output/
 ├── main.py
 ```
-
+##
 <img width="797" height="266" alt="Screenshot 2025-08-04 020706" src="https://github.com/user-attachments/assets/35da536d-6906-494c-81ea-74954b323ce8" />
 
 ##
@@ -216,20 +222,13 @@ ComfyUI/      # here my directory name is texttoimagetovideo
 
 <img width="1481" height="546" alt="image" src="https://github.com/user-attachments/assets/2a12ccf8-7437-406e-b3ca-130a7a923810" />
 
-##
-<img width="1913" height="879" alt="Screenshot 2025-08-04 020600" src="https://github.com/user-attachments/assets/bbe52bbc-146a-4c18-8df8-3d728cd72603" />
-
-##
-<img width="1913" height="879" alt="Screenshot 2025-08-04 020600" src="https://github.com/user-attachments/assets/85c66c7f-2b28-405a-be5e-cdb6bf76f751" />
-
-##
 
 
 
 <img width="1119" height="542" alt="image" src="https://github.com/user-attachments/assets/af15ad57-cb4f-46e9-8c65-758b2e201160" />
 
 
-# This project represents a cutting-edge AI video generation system built using ComfyUI as the foundational node-based interface and AnimateDiff-Evolved for dynamic animation capabilities. The goal is to create a modular, customizable pipeline that enables users to generate high-quality, frame-consistent animations from text or image prompts using state-of-the-art models like Realistic Vision v5.1 and AnimateDiff v3.1+.
+**This project represents a cutting-edge AI video generation system built using ComfyUI as the foundational node-based interface and AnimateDiff-Evolved for dynamic animation capabilities. The goal is to create a modular, customizable pipeline that enables users to generate high-quality, frame-consistent animations from text or image prompts using state-of-the-art models like Realistic Vision v5.1 and AnimateDiff v3.1+.**
 
 ✅ What We’ve Achieved So Far
 ✅ Core Integration:
@@ -324,6 +323,7 @@ GitHub, VSCode, ffmpeg, Web UI
 /README.md: Full setup instructions (just published)
 
 Ready to Animate! 🚀
+
 
 
 
